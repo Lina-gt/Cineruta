@@ -1,0 +1,6 @@
+{
+  "name": "CineRuta España - Cartelera & Cines Cercanos",
+  "description": "Localizador y guía cinematográfica de cines en España por código postal o ciudad. Cartelera, salas, VOSE, compra de entradas y mapa interactivo vintage.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

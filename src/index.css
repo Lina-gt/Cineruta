@@ -1,0 +1,108 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #0c0d12;
+    color: #e6e4df;
+    overflow-x: hidden;
+  }
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', Georgia, serif;
+}
+
+.font-playfair {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-mono-code {
+  font-family: 'Space Mono', monospace;
+}
+
+/* Vintage Ticket Serrated Notches */
+.ticket-notch-left {
+  position: absolute;
+  top: 50%;
+  left: -12px;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  background-color: #0c0d12;
+  border-radius: 9999px;
+  box-shadow: inset -2px 0 3px rgba(0, 0, 0, 0.4);
+}
+
+.ticket-notch-right {
+  position: absolute;
+  top: 50%;
+  right: -12px;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  background-color: #0c0d12;
+  border-radius: 9999px;
+  box-shadow: inset 2px 0 3px rgba(0, 0, 0, 0.4);
+}
+
+/* Perforated divider line */
+.ticket-perforation {
+  border-left: 2px dashed rgba(197, 160, 89, 0.25);
+}
+
+/* Subtle Film Grain overlay */
+.film-grain {
+  background-image: radial-gradient(rgba(217, 180, 107, 0.04) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Custom Gold Glow */
+.gold-glow {
+  box-shadow: 0 0 25px rgba(212, 175, 55, 0.12);
+}
+
+.gold-glow-strong {
+  box-shadow: 0 0 35px rgba(212, 175, 55, 0.28);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0f1017;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a2d3d;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c5a059;
+}
+
+/* Custom Leaflet Map styling */
+.leaflet-container {
+  background-color: #12131a !important;
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif !important;
+}
+
+.leaflet-popup-content-wrapper {
+  background: #151722 !important;
+  color: #e6e4df !important;
+  border: 1px solid rgba(212, 175, 55, 0.3) !important;
+  border-radius: 8px !important;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7) !important;
+  padding: 4px !important;
+}
+
+.leaflet-popup-tip {
+  background: #151722 !important;
+  border: 1px solid rgba(212, 175, 55, 0.3) !important;
+}
+
+.leaflet-popup-content {
+  margin: 10px 12px !important;
+  line-height: 1.4 !important;
+}
